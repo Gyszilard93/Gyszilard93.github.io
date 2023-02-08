@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-image: url("../Login/img/mywall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: tahoma, sans-serif;
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.form-area {
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  transform: translate(-50, -50%);
+  width: 400px;
+  height: 500px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-area p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.form-area input,
+select {
+  margin-bottom: 25px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.form-area input[type="text"],
+.form-area input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  display: 16px;
+}
+
+::placeholder {
+  color: darkgray;
+}
+
+.form-area select {
+  margin-top: 20px;
+  padding: 10px, 0;
+}
+
+.form-area input[type="submit"] {
+  border: none;
+  height: 40px;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  background-color: indianred;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.form-area input[type=submit] :hover {
+  background-color: dimgrey;
+  color: rgb(17, 211, 218);
+}
+
+.form-area a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.heading {
+  margin: 300px;
+  padding: 230px;
+  margin-top: auto;
+  margin-right: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
